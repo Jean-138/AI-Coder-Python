@@ -44,7 +44,7 @@ with st.sidebar:
     st.markdown("---")
     
     # Como usar
-    st.markdown("## 🚀 Como Usar")
+    st.markdown("## Como Usar")
     st.markdown("""
 1. 🔑 Insira sua **API Key Groq** acima.  
 2. 💬 Faça perguntas sobre Python na caixa de chat principal.  
@@ -152,4 +152,5 @@ if prompt := st.chat_input("Qual a sua duvida sobre Python ? "):
             #caso ocora erro de comunicacao da api, exibe o erro
             except Exception as e:
                 st.error(f"ocorreu um erro ao se comunicar com a API")
+
 
